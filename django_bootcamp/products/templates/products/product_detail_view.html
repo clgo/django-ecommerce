@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block title %}
+<title>Django Ecommerce Shop: {{ object.title }} Details</title>
+{% endblock %}
+
 {% block main %}
 <div class="container mt-3">
     <div class="row">
